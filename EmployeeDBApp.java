@@ -7,8 +7,8 @@ public class EmployeeDBApp {
 
     // JDBC connection details
     private static final String URL = "jdbc:mysql://localhost:3306/employee_db?useSSL=false&serverTimezone=UTC";
-    private static final String USER = "root";           // replace with your DB username
-    private static final String PASSWORD = "Admin@123"; // replace with your DB password
+    private static final String USER = "root";           
+    private static final String PASSWORD = "Admin@123"; 
 
     // Load JDBC driver
     static {
